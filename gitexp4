@@ -1,0 +1,15 @@
+ git init
+git clone https://github.com/prathiksha3/gitexp4.git
+cd gitexp4
+ echo "first" > t1.txt
+ git add .
+git commit -m "t1 is added"
+git tag v1
+git log
+ echo "hello world" > t2.txt
+ git add .
+git commit -m "t2 is added"
+ git checkout v1
+ git log
+ git push
+git push origin v1
