@@ -1,0 +1,24 @@
+ git init
+ git clone https://github.com/prathiksha3/gitexp6.git
+cd gitexp6
+ touch t1.txt
+ touch t2.txt
+ touch t3.txt
+touch t4.txt
+ touch t5.txt
+ git add t1.txt
+ git commit -m "t1 is added"
+ git add t2.txt
+ git commit -m "t2 is added"
+ git add t3.txt
+ git commit -m "t3 is added"
+git add t4.txt
+git commit -m "t4 is added"
+git add t5.txt
+git commit -m "t5 is added"
+ git log
+git show  991fe6e9a2fe861fc6b2bb247be7185c3dc66b69
+git log --author="Prathiksha" --since="2024-02-21" --until="2024-03-19"
+ git log -n 5
+ git revert 991fe6e9a2fe861fc6b2bb247be7185c3dc66b69
+git push
