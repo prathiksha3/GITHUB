@@ -1,0 +1,15 @@
+ git init
+git clone https://github.com/prathiksha3/gitexp5.git
+ cd gitexp5
+vim t1.txt
+git status
+git add .
+ git add t1.txt
+git commit -m "t1 first commit"
+git branch cherrypick
+ git checkout cherrypick
+git status
+git add t1.txt
+ git commit -m "t1 2 commit"
+git status
+git log
