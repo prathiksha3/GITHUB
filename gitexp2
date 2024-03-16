@@ -1,0 +1,33 @@
+git init
+git clone https://github.com/prathiksha3/gitexp2.git
+cd gitexp2
+ echo "hello" > t1.txt
+git add .
+ git add t1.txt
+ git commit -m "t1 is added"
+git branch feature-branch
+ git checkout feature-branch
+ git branch
+echo "hello" > t2.txt
+ git add .
+ git add t2.txt
+ git commit -m "t2 is added in feature-branch"
+git checkout main
+ git branch
+ git merge feature-branch
+ git log
+git checkout feature-branch
+echo "hello user" > t3.txt
+ git add .
+git checkout main
+ git stash apply
+ git checkout feature-branch
+git stash
+git checkout main
+ git status
+ git stash apply
+git commit -m "added t3 from feature-branch using stash"
+ git log
+git push
+
+
