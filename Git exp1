@@ -1,0 +1,8 @@
+git init
+git clone https://github.com/prathiksha3/gitexp1.git
+cd gitexp1
+touch t1.txt
+git add .
+git status
+git commit -m "t1 is added"
+git push
