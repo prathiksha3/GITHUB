@@ -14,9 +14,9 @@ This is ideal for beginners who are new to Git and GitHub as well as developers 
 ## Features
 
 - Step-by-step instructions for Git installation and setup.
-- 
+
 - Tutorials on essential Git commands like `commit`, `push`, `pull`, `merge`, and more.
-- 
+  
 - Best practices for managing branches and handling pull requests.
 
 Ensure you have Git installed on your machine. You can download Git from the official website:
